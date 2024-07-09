@@ -1,0 +1,4 @@
+Start Chat Session ID: 4769a58afb9f4197bfd6687a7239f418
+
+Bot: Hello! Welcome to buySolar. How may I help you?
+

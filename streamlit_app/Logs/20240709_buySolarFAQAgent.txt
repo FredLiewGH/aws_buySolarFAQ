@@ -1,0 +1,2 @@
+2024-07-09 15:28:30,042 - Logging - INFO - Write to file: buySolarFAQAgent/streamlit_app/ChatHistory\4769a58afb9f4197bfd6687a7239f418.txt
+2024-07-09 15:28:30,044 - Logging - INFO - Write to file: buySolarFAQAgent/streamlit_app/ChatHistory\4769a58afb9f4197bfd6687a7239f418.txt
