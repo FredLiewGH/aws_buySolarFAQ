@@ -19,8 +19,9 @@ def response_stream(response):
 def response_thank():
     response = random.choice(
         [
-            "You're very welcome! I'm happy I could help. Please let me know if there's anything else I can assist you with regarding solar panels or our services.",
+            "You're very welcome! I'm happy I could help. Please let me know if there's anything else I can assist you regarding solar panels or our services.",
             "No problem at all! Thank you for choosing buySolar. We value your business and are committed to providing excellent customer service. Is there anything else I can help with today?",
+            "You're welcome! Glad I could be of service, please reach out to us if there's more inquiries. Is there anything else I could help you with?"
         ]
     )
     for word in response.split():
@@ -62,5 +63,3 @@ def startChat():
                 response = st.write_stream(response_stream(return_request.text))
                 
             st.session_state.messages.append({"role": "assistant", "content": response})
-
-        
